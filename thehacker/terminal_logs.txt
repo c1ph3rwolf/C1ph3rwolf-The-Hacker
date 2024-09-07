@@ -1,0 +1,1069 @@
+                                                                                                
+┌──(cipher㉿watchdog)-[~/Obsidian]
+└─$ python -m venv c1ph3rwolf        
+                                                                                                
+┌──(cipher㉿watchdog)-[~/Obsidian]
+└─$ cd c1ph3rwolf
+                                                                                                
+┌──(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf]
+└─$ ls
+bin  include  lib  lib64  pyvenv.cfg
+                                                                                                
+┌──(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf]
+└─$ source bin/activate
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf]
+└─$ pip install django       
+Collecting django
+  Using cached Django-5.1.1-py3-none-any.whl.metadata (4.2 kB)
+Collecting asgiref<4,>=3.8.1 (from django)
+  Using cached asgiref-3.8.1-py3-none-any.whl.metadata (9.3 kB)
+Collecting sqlparse>=0.3.1 (from django)
+  Using cached sqlparse-0.5.1-py3-none-any.whl.metadata (3.9 kB)
+Using cached Django-5.1.1-py3-none-any.whl (8.2 MB)
+Using cached asgiref-3.8.1-py3-none-any.whl (23 kB)
+Using cached sqlparse-0.5.1-py3-none-any.whl (44 kB)
+Installing collected packages: sqlparse, asgiref, django
+Successfully installed asgiref-3.8.1 django-5.1.1 sqlparse-0.5.1
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf]
+└─$ django-admin startproject thehacker  
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf]
+└─$ django-admin startapp theprofile        
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf]
+└─$ ls
+bin  include  lib  lib64  pyvenv.cfg  thehacker
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf]
+└─$ cd thehacker      
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker]
+└─$ ls
+'Daily Routine.canvas'   manage.py                   thehacker
+ download.md             Project-Structures.canvas   thestaticfiles
+ Grossery                ReadMe.md                   Workflow
+ Index.md                RoadMap.canvas             'Your Hacking Journey.canvas'
+ Journals               'Start Here.md'
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker]
+└─$ django-admin startapp theprofile   
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker]
+└─$ cd theprofile 
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker/theprofile]
+└─$ mkdir templates       
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker/theprofile]
+└─$ ls
+admin.py  apps.py  __init__.py  migrations  models.py  templates  tests.py  views.py
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker/theprofile]
+└─$ touch urls.py   
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker/theprofile]
+└─$ cd theprofile  
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker/theprofile]
+└─$ ls
+admin.py  __init__.py  models.py    templates  urls.py
+apps.py   migrations   __pycache__  tests.py   views.py
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker/theprofile]
+└─$ cd ..        
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker]
+└─$ ls
+'Daily Routine.canvas'   manage.py                   thehacker
+ download.md             Project-Structures.canvas   theprofile
+ Grossery                ReadMe.md                   thestaticfiles
+ Index.md                RoadMap.canvas              Workflow
+ Journals               'Start Here.md'             'Your Hacking Journey.canvas'
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker]
+└─$ python -m venv c1ph3rwolf
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker]
+└─$ cls          
+Command 'cls' not found, but there are 16 similar ones.
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker]
+└─$ ls
+'Daily Routine.canvas'   manage.py                   thehacker
+ download.md             Project-Structures.canvas   theprofile
+ Grossery                ReadMe.md                   thestaticfiles
+ Index.md                RoadMap.canvas              Workflow
+ Journals               'Start Here.md'             'Your Hacking Journey.canvas'
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker]
+└─$ cd ..
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf]
+└─$ ls
+bin  include  lib  lib64  pyvenv.cfg  thehacker
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf]
+└─$ cd thehacker      
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker]
+└─$ ls
+'Daily Routine.canvas'   manage.py                   thehacker
+ download.md             Project-Structures.canvas   theprofile
+ Grossery                ReadMe.md                   thestaticfiles
+ Index.md                RoadMap.canvas              Workflow
+ Journals               'Start Here.md'             'Your Hacking Journey.canvas'
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker]
+└─$ ls -l
+total 72
+-rw-rw-r-- 1 cipher cipher     2 Sep  3 20:36 'Daily Routine.canvas'
+-rw-r--r-- 1 cipher cipher  1753 Jul 17  2023  download.md
+drwxrwxr-x 2 cipher cipher  4096 Sep  5 06:40  Grossery
+-rw-rw-r-- 1 cipher cipher    21 Sep  3 20:36  Index.md
+drwxrwxr-x 2 cipher cipher  4096 Sep  3 20:34  Journals
+-rwxrwxr-x 1 cipher cipher   665 Sep  6 18:58  manage.py
+-rw-rw-r-- 1 cipher cipher  3081 Sep  6 19:46  Project-Structures.canvas
+-rw-rw-r-- 1 cipher cipher     0 Sep  3 20:22  ReadMe.md
+-rw-rw-r-- 1 cipher cipher     2 Sep  3 20:37  RoadMap.canvas
+-rw-rw-r-- 1 cipher cipher 18053 Sep  4 22:24 'Start Here.md'
+drwxrwxr-x 3 cipher cipher  4096 Sep  6 20:07  thehacker
+drwxrwxr-x 5 cipher cipher  4096 Sep  6 20:07  theprofile
+drwxrwxr-x 4 cipher cipher  4096 Sep  6 19:58  thestaticfiles
+drwxrwxr-x 7 cipher cipher  4096 Sep  3 20:35  Workflow
+-rw-rw-r-- 1 cipher cipher     2 Sep  4 18:23 'Your Hacking Journey.canvas'
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker]
+└─$ python manage.py runserver       
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+?: (staticfiles.W004) The directory '/home/cipher/Obsidian/c1ph3rwolf/thehacker/mystaticfiles' in the STATICFILES_DIRS setting does not exist.                                                  
+
+System check identified 1 issue (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.                                          
+Run 'python manage.py migrate' to apply them.
+September 06, 2024 - 14:39:54
+Django version 5.1.1, using settings 'thehacker.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/thehacker/theprofile/views.py", line 6, in theprofile
+    template = loader.get_template('profile.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: profile.html
+[06/Sep/2024 14:40:05] "GET / HTTP/1.1" 500 71637
+/home/cipher/Obsidian/c1ph3rwolf/thehacker/theprofile/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+?: (staticfiles.W004) The directory '/home/cipher/Obsidian/c1ph3rwolf/thehacker/mystaticfiles' in the STATICFILES_DIRS setting does not exist.                                                  
+
+System check identified 1 issue (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.                                          
+Run 'python manage.py migrate' to apply them.
+September 06, 2024 - 14:40:48
+Django version 5.1.1, using settings 'thehacker.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/thehacker/theprofile/views.py", line 6, in theprofile
+    template = loader.get_template('profile.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: profile.html
+[06/Sep/2024 14:40:49] "GET / HTTP/1.1" 500 71774
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/thehacker/theprofile/views.py", line 6, in theprofile
+    template = loader.get_template('profile.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: profile.html
+[06/Sep/2024 14:40:50] "GET / HTTP/1.1" 500 71774
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/thehacker/theprofile/views.py", line 6, in theprofile
+    template = loader.get_template('profile.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: profile.html
+[06/Sep/2024 14:40:51] "GET / HTTP/1.1" 500 71774
+/home/cipher/Obsidian/c1ph3rwolf/thehacker/theprofile/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+?: (staticfiles.W004) The directory '/home/cipher/Obsidian/c1ph3rwolf/thehacker/mystaticfiles' in the STATICFILES_DIRS setting does not exist.                                                  
+
+System check identified 1 issue (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.                                          
+Run 'python manage.py migrate' to apply them.
+September 06, 2024 - 14:41:47
+Django version 5.1.1, using settings 'thehacker.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/thehacker/theprofile/views.py", line 6, in theprofile
+    template = loader.get_template('profile.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: profile.html
+[06/Sep/2024 14:41:48] "GET / HTTP/1.1" 500 71774
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/thehacker/theprofile/views.py", line 6, in theprofile
+    template = loader.get_template('profile.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: profile.html
+[06/Sep/2024 14:41:48] "GET / HTTP/1.1" 500 71774
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/thehacker/theprofile/views.py", line 6, in theprofile
+    template = loader.get_template('profile.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: profile.html
+[06/Sep/2024 14:42:37] "GET / HTTP/1.1" 500 71774
+/home/cipher/Obsidian/c1ph3rwolf/thehacker/thehacker/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+?: (staticfiles.W004) The directory '/home/cipher/Obsidian/c1ph3rwolf/thehacker/mystaticfiles' in the STATICFILES_DIRS setting does not exist.                                                  
+
+System check identified 1 issue (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.                                          
+Run 'python manage.py migrate' to apply them.
+September 06, 2024 - 14:43:29
+Django version 5.1.1, using settings 'thehacker.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+[06/Sep/2024 14:43:31] "GET / HTTP/1.1" 200 10934
+Not Found: /vendor/bootstrap/css/bootstrap.min.css
+[06/Sep/2024 14:43:31] "GET /vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2544
+Not Found: /assets/css/fontawesome.css
+[06/Sep/2024 14:43:31] "GET /assets/css/fontawesome.css HTTP/1.1" 404 2508
+Not Found: /assets/css/templatemo-cyborg-gaming.css
+[06/Sep/2024 14:43:31] "GET /assets/css/templatemo-cyborg-gaming.css HTTP/1.1" 404 2547
+Not Found: /assets/images/profile-header.jpg
+[06/Sep/2024 14:43:32] "GET /assets/images/profile-header.jpg HTTP/1.1" 404 2526
+Not Found: /assets/images/clip-01.jpg
+Not Found: /assets/css/animate.css
+Not Found: /assets/css/owl.css
+[06/Sep/2024 14:43:32] "GET /assets/css/animate.css HTTP/1.1" 404 2496
+[06/Sep/2024 14:43:32] "GET /assets/images/clip-01.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:43:32] "GET /assets/css/owl.css HTTP/1.1" 404 2484
+Not Found: /assets/images/profile.jpg
+[06/Sep/2024 14:43:32] "GET /assets/images/profile.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/clip-02.jpg
+Not Found: /assets/images/logo.png
+[06/Sep/2024 14:43:32] "GET /assets/images/logo.png HTTP/1.1" 404 2496
+[06/Sep/2024 14:43:32] "GET /assets/images/clip-02.jpg HTTP/1.1" 404 2505
+Not Found: /vendor/bootstrap/js/bootstrap.min.js
+Not Found: /assets/js/owl-carousel.js
+Not Found: /assets/js/tabs.js
+[06/Sep/2024 14:43:32] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2538
+[06/Sep/2024 14:43:32] "GET /assets/js/owl-carousel.js HTTP/1.1" 404 2505
+Not Found: /assets/js/popup.js
+[06/Sep/2024 14:43:32] "GET /assets/js/tabs.js HTTP/1.1" 404 2481
+Not Found: /assets/js/isotope.min.js
+[06/Sep/2024 14:43:32] "GET /assets/js/popup.js HTTP/1.1" 404 2484
+Not Found: /vendor/jquery/jquery.min.js
+[06/Sep/2024 14:43:32] "GET /assets/js/isotope.min.js HTTP/1.1" 404 2502
+[06/Sep/2024 14:43:32] "GET /vendor/jquery/jquery.min.js HTTP/1.1" 404 2511
+Not Found: /assets/js/custom.js
+[06/Sep/2024 14:43:32] "GET /assets/js/custom.js HTTP/1.1" 404 2487
+Not Found: /assets/images/clip-03.jpg
+[06/Sep/2024 14:43:32] "GET /assets/images/clip-03.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/clip-04.jpg
+[06/Sep/2024 14:43:32] "GET /assets/images/clip-04.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-02.jpg
+[06/Sep/2024 14:43:32] "GET /assets/images/game-02.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-01.jpg
+[06/Sep/2024 14:43:32] "GET /assets/images/game-01.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-03.jpg
+[06/Sep/2024 14:43:32] "GET /assets/images/game-03.jpg HTTP/1.1" 404 2505
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/thehacker/theprofile/views.py", line 6, in theprofile
+    template = loader.get_template('profile.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 19: 'static'. Did you forget to register or load this tag?
+[06/Sep/2024 14:44:34] "GET / HTTP/1.1" 500 138080
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/thehacker/theprofile/views.py", line 6, in theprofile
+    template = loader.get_template('profile.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 19: 'static'. Did you forget to register or load this tag?
+[06/Sep/2024 14:45:43] "GET / HTTP/1.1" 500 138104
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/thehacker/theprofile/views.py", line 6, in theprofile
+    template = loader.get_template('profile.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 19: 'static'. Did you forget to register or load this tag?
+[06/Sep/2024 14:45:44] "GET / HTTP/1.1" 500 138104
+/home/cipher/Obsidian/c1ph3rwolf/thehacker/theprofile/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+?: (staticfiles.W004) The directory '/home/cipher/Obsidian/c1ph3rwolf/thehacker/mystaticfiles' in the STATICFILES_DIRS setting does not exist.                                                  
+
+System check identified 1 issue (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.                                          
+Run 'python manage.py migrate' to apply them.
+September 06, 2024 - 14:47:26
+Django version 5.1.1, using settings 'thehacker.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+/home/cipher/Obsidian/c1ph3rwolf/thehacker/theprofile/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+?: (staticfiles.W004) The directory '/home/cipher/Obsidian/c1ph3rwolf/thehacker/mystaticfiles' in the STATICFILES_DIRS setting does not exist.                                                  
+
+System check identified 1 issue (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.                                          
+Run 'python manage.py migrate' to apply them.
+September 06, 2024 - 14:47:32
+Django version 5.1.1, using settings 'thehacker.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/thehacker/theprofile/views.py", line 6, in theprofile
+    template = loader.get_template('profile.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 19: 'static'. Did you forget to register or load this tag?
+[06/Sep/2024 14:47:43] "GET / HTTP/1.1" 500 138095
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/thehacker/theprofile/views.py", line 6, in theprofile
+    template = loader.get_template('profile.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/cipher/Obsidian/c1ph3rwolf/lib/python3.11/site-packages/django/template/base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 19: 'static'. Did you forget to register or load this tag?
+[06/Sep/2024 14:47:44] "GET / HTTP/1.1" 500 138095
+[06/Sep/2024 14:48:15] "GET / HTTP/1.1" 200 10958
+Not Found: /vendor/bootstrap/css/bootstrap.min.css
+[06/Sep/2024 14:48:15] "GET /vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2544
+Not Found: /assets/css/fontawesome.css
+[06/Sep/2024 14:48:15] "GET /assets/css/fontawesome.css HTTP/1.1" 404 2508
+[06/Sep/2024 14:48:15] "GET /static/thestaticfiles/assets/css/templatemo-cyborg-gaming.css HTTP/1.1" 404 1976                                                                                   
+Not Found: /assets/css/owl.css
+[06/Sep/2024 14:48:15] "GET /assets/css/owl.css HTTP/1.1" 404 2484
+Not Found: /assets/css/animate.css
+[06/Sep/2024 14:48:15] "GET /assets/css/animate.css HTTP/1.1" 404 2496
+Not Found: /assets/images/logo.png
+[06/Sep/2024 14:48:15] "GET /assets/images/logo.png HTTP/1.1" 404 2496
+Not Found: /assets/images/profile.jpg
+[06/Sep/2024 14:48:15] "GET /assets/images/profile.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/clip-01.jpg
+[06/Sep/2024 14:48:15] "GET /assets/images/clip-01.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/profile-header.jpg
+[06/Sep/2024 14:48:15] "GET /assets/images/profile-header.jpg HTTP/1.1" 404 2526
+Not Found: /vendor/jquery/jquery.min.js
+Not Found: /assets/images/clip-02.jpg
+Not Found: /assets/js/tabs.js
+[06/Sep/2024 14:48:15] "GET /assets/js/tabs.js HTTP/1.1" 404 2481
+Not Found: /assets/js/owl-carousel.js
+[06/Sep/2024 14:48:15] "GET /assets/js/owl-carousel.js HTTP/1.1" 404 2505
+Not Found: /assets/js/isotope.min.js
+[06/Sep/2024 14:48:15] "GET /assets/images/clip-02.jpg HTTP/1.1" 404 2505
+Not Found: /vendor/bootstrap/js/bootstrap.min.js
+[06/Sep/2024 14:48:15] "GET /vendor/jquery/jquery.min.js HTTP/1.1" 404 2511
+[06/Sep/2024 14:48:15] "GET /assets/js/isotope.min.js HTTP/1.1" 404 2502
+[06/Sep/2024 14:48:15] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2538
+Not Found: /assets/js/popup.js
+[06/Sep/2024 14:48:15] "GET /assets/js/popup.js HTTP/1.1" 404 2484
+Not Found: /assets/images/game-01.jpg
+Not Found: /assets/images/clip-03.jpg
+[06/Sep/2024 14:48:15] "GET /assets/images/clip-03.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-02.jpg
+Not Found: /assets/images/clip-04.jpg
+[06/Sep/2024 14:48:15] "GET /assets/images/game-02.jpg HTTP/1.1" 404 2505
+Not Found: /assets/js/custom.js
+[06/Sep/2024 14:48:15] "GET /assets/images/clip-04.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-03.jpg
+[06/Sep/2024 14:48:15] "GET /assets/images/game-01.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:48:15] "GET /assets/js/custom.js HTTP/1.1" 404 2487
+[06/Sep/2024 14:48:15] "GET /assets/images/game-03.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:48:35] "GET / HTTP/1.1" 200 10943
+Not Found: /vendor/bootstrap/css/bootstrap.min.css
+[06/Sep/2024 14:48:35] "GET /vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2544
+Not Found: /assets/css/fontawesome.css
+[06/Sep/2024 14:48:35] "GET /assets/css/fontawesome.css HTTP/1.1" 404 2508
+[06/Sep/2024 14:48:35] "GET /static/assets/css/templatemo-cyborg-gaming.css HTTP/1.1" 404 1931
+Not Found: /assets/images/profile-header.jpg
+[06/Sep/2024 14:48:35] "GET /assets/images/profile-header.jpg HTTP/1.1" 404 2526
+Not Found: /assets/css/animate.css
+Not Found: /assets/css/owl.css
+[06/Sep/2024 14:48:35] "GET /assets/css/owl.css HTTP/1.1" 404 2484
+Not Found: /assets/images/logo.png
+[06/Sep/2024 14:48:35] "GET /assets/images/logo.png HTTP/1.1" 404 2496
+Not Found: /assets/images/profile.jpg
+[06/Sep/2024 14:48:36] "GET /assets/css/animate.css HTTP/1.1" 404 2496
+[06/Sep/2024 14:48:36] "GET /assets/images/profile.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/clip-01.jpg
+[06/Sep/2024 14:48:36] "GET /assets/images/clip-01.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/clip-02.jpg
+[06/Sep/2024 14:48:36] "GET /assets/images/clip-02.jpg HTTP/1.1" 404 2505
+Not Found: /vendor/jquery/jquery.min.js
+[06/Sep/2024 14:48:36] "GET /vendor/jquery/jquery.min.js HTTP/1.1" 404 2511
+Not Found: /assets/js/isotope.min.js
+Not Found: /vendor/bootstrap/js/bootstrap.min.js
+[06/Sep/2024 14:48:36] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2538
+[06/Sep/2024 14:48:36] "GET /assets/js/isotope.min.js HTTP/1.1" 404 2502
+Not Found: /assets/js/owl-carousel.js
+[06/Sep/2024 14:48:36] "GET /assets/js/owl-carousel.js HTTP/1.1" 404 2505
+Not Found: /assets/js/tabs.js
+[06/Sep/2024 14:48:36] "GET /assets/js/tabs.js HTTP/1.1" 404 2481
+Not Found: /assets/images/clip-03.jpg
+[06/Sep/2024 14:48:36] "GET /assets/images/clip-03.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-01.jpg
+[06/Sep/2024 14:48:36] "GET /assets/images/game-01.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/clip-04.jpg
+Not Found: /assets/js/popup.js
+[06/Sep/2024 14:48:36] "GET /assets/images/clip-04.jpg HTTP/1.1" 404 2505
+Not Found: /assets/js/custom.js
+[06/Sep/2024 14:48:36] "GET /assets/js/popup.js HTTP/1.1" 404 2484
+Not Found: /assets/images/game-02.jpg
+[06/Sep/2024 14:48:36] "GET /assets/js/custom.js HTTP/1.1" 404 2487
+[06/Sep/2024 14:48:36] "GET /assets/images/game-02.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-03.jpg
+[06/Sep/2024 14:48:36] "GET /assets/images/game-03.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:48:42] "GET / HTTP/1.1" 200 10943
+Not Found: /vendor/bootstrap/css/bootstrap.min.css
+Not Found: /assets/css/fontawesome.css
+[06/Sep/2024 14:48:42] "GET /vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2544
+Not Found: /assets/css/owl.css
+[06/Sep/2024 14:48:42] "GET /static/assets/css/templatemo-cyborg-gaming.css HTTP/1.1" 404 1931
+Not Found: /assets/images/logo.png
+[06/Sep/2024 14:48:42] "GET /assets/images/logo.png HTTP/1.1" 404 2496
+[06/Sep/2024 14:48:42] "GET /assets/css/fontawesome.css HTTP/1.1" 404 2508
+Not Found: /assets/css/animate.css
+[06/Sep/2024 14:48:42] "GET /assets/css/animate.css HTTP/1.1" 404 2496
+[06/Sep/2024 14:48:42] "GET /assets/css/owl.css HTTP/1.1" 404 2484
+Not Found: /assets/images/profile-header.jpg
+[06/Sep/2024 14:48:42] "GET /assets/images/profile-header.jpg HTTP/1.1" 404 2526
+Not Found: /assets/images/profile.jpg
+[06/Sep/2024 14:48:42] "GET /assets/images/profile.jpg HTTP/1.1" 404 2505
+Not Found: /vendor/jquery/jquery.min.js
+Not Found: /vendor/bootstrap/js/bootstrap.min.js
+[06/Sep/2024 14:48:42] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2538
+Not Found: /assets/js/isotope.min.js
+[06/Sep/2024 14:48:42] "GET /vendor/jquery/jquery.min.js HTTP/1.1" 404 2511
+[06/Sep/2024 14:48:42] "GET /assets/js/isotope.min.js HTTP/1.1" 404 2502
+Not Found: /assets/images/clip-02.jpg
+Not Found: /assets/images/clip-01.jpg
+[06/Sep/2024 14:48:42] "GET /assets/images/clip-02.jpg HTTP/1.1" 404 2505
+Not Found: /assets/js/owl-carousel.js
+[06/Sep/2024 14:48:42] "GET /assets/js/owl-carousel.js HTTP/1.1" 404 2505
+[06/Sep/2024 14:48:42] "GET /assets/images/clip-01.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-01.jpg
+Not Found: /assets/images/clip-04.jpg
+Not Found: /assets/images/clip-03.jpg
+[06/Sep/2024 14:48:42] "GET /assets/images/clip-03.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:48:42] "GET /assets/images/clip-04.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:48:42] "GET /assets/images/game-01.jpg HTTP/1.1" 404 2505
+Not Found: /assets/js/custom.js
+[06/Sep/2024 14:48:43] "GET /assets/js/custom.js HTTP/1.1" 404 2487
+Not Found: /assets/js/popup.js
+[06/Sep/2024 14:48:43] "GET /assets/js/popup.js HTTP/1.1" 404 2484
+Not Found: /assets/js/tabs.js
+[06/Sep/2024 14:48:43] "GET /assets/js/tabs.js HTTP/1.1" 404 2481
+Not Found: /assets/images/game-02.jpg
+Not Found: /assets/images/game-03.jpg
+[06/Sep/2024 14:48:43] "GET /assets/images/game-03.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:48:43] "GET /assets/images/game-02.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:48:43] "GET / HTTP/1.1" 200 10943
+Not Found: /vendor/bootstrap/css/bootstrap.min.css
+Not Found: /assets/css/fontawesome.css
+[06/Sep/2024 14:48:43] "GET /vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2544
+Not Found: /assets/images/logo.png
+[06/Sep/2024 14:48:43] "GET /static/assets/css/templatemo-cyborg-gaming.css HTTP/1.1" 404 1931
+[06/Sep/2024 14:48:43] "GET /assets/images/logo.png HTTP/1.1" 404 2496
+[06/Sep/2024 14:48:43] "GET /assets/css/fontawesome.css HTTP/1.1" 404 2508
+Not Found: /assets/css/owl.css
+Not Found: /assets/css/animate.css
+Not Found: /assets/images/profile-header.jpg
+[06/Sep/2024 14:48:43] "GET /assets/images/profile-header.jpg HTTP/1.1" 404 2526
+[06/Sep/2024 14:48:43] "GET /assets/css/animate.css HTTP/1.1" 404 2496
+[06/Sep/2024 14:48:43] "GET /assets/css/owl.css HTTP/1.1" 404 2484
+Not Found: /assets/images/profile.jpg
+[06/Sep/2024 14:48:43] "GET /assets/images/profile.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/clip-01.jpg
+[06/Sep/2024 14:48:43] "GET /assets/images/clip-01.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/clip-02.jpg
+[06/Sep/2024 14:48:43] "GET /assets/images/clip-02.jpg HTTP/1.1" 404 2505
+Not Found: /assets/js/isotope.min.js
+[06/Sep/2024 14:48:43] "GET /assets/js/isotope.min.js HTTP/1.1" 404 2502
+Not Found: /vendor/bootstrap/js/bootstrap.min.js
+Not Found: /assets/js/tabs.js
+[06/Sep/2024 14:48:43] "GET /assets/js/tabs.js HTTP/1.1" 404 2481
+Not Found: /assets/js/owl-carousel.js
+[06/Sep/2024 14:48:43] "GET /assets/js/owl-carousel.js HTTP/1.1" 404 2505
+[06/Sep/2024 14:48:43] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2538
+Not Found: /vendor/jquery/jquery.min.js
+[06/Sep/2024 14:48:43] "GET /vendor/jquery/jquery.min.js HTTP/1.1" 404 2511
+Not Found: /assets/js/popup.js
+[06/Sep/2024 14:48:43] "GET /assets/js/popup.js HTTP/1.1" 404 2484
+Not Found: /assets/images/clip-04.jpg
+[06/Sep/2024 14:48:43] "GET /assets/images/clip-04.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-01.jpg
+Not Found: /assets/images/game-02.jpg
+[06/Sep/2024 14:48:43] "GET /assets/images/game-02.jpg HTTP/1.1" 404 2505
+Not Found: /assets/js/custom.js
+[06/Sep/2024 14:48:43] "GET /assets/images/game-01.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:48:43] "GET /assets/js/custom.js HTTP/1.1" 404 2487
+Not Found: /assets/images/clip-03.jpg
+[06/Sep/2024 14:48:43] "GET /assets/images/clip-03.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-03.jpg
+[06/Sep/2024 14:48:43] "GET /assets/images/game-03.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:48:44] "GET / HTTP/1.1" 200 10943
+Not Found: /vendor/bootstrap/css/bootstrap.min.css
+Not Found: /assets/css/owl.css
+Not Found: /assets/images/logo.png
+Not Found: /assets/css/animate.css
+[06/Sep/2024 14:48:44] "GET /assets/css/animate.css HTTP/1.1" 404 2496
+[06/Sep/2024 14:48:44] "GET /assets/css/owl.css HTTP/1.1" 404 2484
+[06/Sep/2024 14:48:44] "GET /vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2544
+[06/Sep/2024 14:48:44] "GET /assets/images/logo.png HTTP/1.1" 404 2496
+[06/Sep/2024 14:48:44] "GET /static/assets/css/templatemo-cyborg-gaming.css HTTP/1.1" 404 1931
+Not Found: /assets/css/fontawesome.css
+[06/Sep/2024 14:48:44] "GET /assets/css/fontawesome.css HTTP/1.1" 404 2508
+Not Found: /vendor/jquery/jquery.min.js
+[06/Sep/2024 14:48:44] "GET /vendor/jquery/jquery.min.js HTTP/1.1" 404 2511
+Not Found: /assets/images/profile-header.jpg
+Not Found: /assets/images/clip-01.jpg
+[06/Sep/2024 14:48:44] "GET /assets/images/profile-header.jpg HTTP/1.1" 404 2526
+Not Found: /assets/images/clip-02.jpg
+[06/Sep/2024 14:48:44] "GET /assets/images/clip-02.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/profile.jpg
+[06/Sep/2024 14:48:44] "GET /assets/images/clip-01.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:48:44] "GET /assets/images/profile.jpg HTTP/1.1" 404 2505
+Not Found: /vendor/bootstrap/js/bootstrap.min.js
+Not Found: /assets/js/isotope.min.js
+[06/Sep/2024 14:48:44] "GET /assets/js/isotope.min.js HTTP/1.1" 404 2502
+[06/Sep/2024 14:48:44] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2538
+Not Found: /assets/js/owl-carousel.js
+[06/Sep/2024 14:48:44] "GET /assets/js/owl-carousel.js HTTP/1.1" 404 2505
+Not Found: /assets/images/clip-04.jpg
+[06/Sep/2024 14:48:44] "GET /assets/images/clip-04.jpg HTTP/1.1" 404 2505
+Not Found: /assets/js/popup.js
+[06/Sep/2024 14:48:44] "GET /assets/js/popup.js HTTP/1.1" 404 2484
+Not Found: /assets/images/game-01.jpg
+[06/Sep/2024 14:48:44] "GET /assets/images/game-01.jpg HTTP/1.1" 404 2505
+Not Found: /assets/js/tabs.js
+[06/Sep/2024 14:48:44] "GET /assets/js/tabs.js HTTP/1.1" 404 2481
+Not Found: /assets/images/clip-03.jpg
+Not Found: /assets/js/custom.js
+[06/Sep/2024 14:48:44] "GET /assets/images/clip-03.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:48:44] "GET /assets/js/custom.js HTTP/1.1" 404 2487
+Not Found: /assets/images/game-03.jpg
+[06/Sep/2024 14:48:44] "GET /assets/images/game-03.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-02.jpg
+[06/Sep/2024 14:48:44] "GET /assets/images/game-02.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:51:53] "GET / HTTP/1.1" 200 10954
+Not Found: /vendor/bootstrap/css/bootstrap.min.css
+Not Found: /assets/css/fontawesome.css
+Not Found: /assets/css/animate.css
+[06/Sep/2024 14:51:53] "GET /assets/css/animate.css HTTP/1.1" 404 2496
+[06/Sep/2024 14:51:53] "GET /vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2544
+[06/Sep/2024 14:51:53] "GET /assets/css/fontawesome.css HTTP/1.1" 404 2508
+[06/Sep/2024 14:51:53] "GET /static/assets/css/templatemo-cyborg-gaming.css HTTP/1.1" 404 1931
+Not Found: /assets/images/profile.jpg
+[06/Sep/2024 14:51:53] "GET /static/assets/images/logo.png%20 HTTP/1.1" 404 1885
+[06/Sep/2024 14:51:53] "GET /assets/images/profile.jpg HTTP/1.1" 404 2505
+Not Found: /assets/css/owl.css
+[06/Sep/2024 14:51:53] "GET /assets/css/owl.css HTTP/1.1" 404 2484
+Not Found: /assets/images/profile-header.jpg
+[06/Sep/2024 14:51:53] "GET /assets/images/profile-header.jpg HTTP/1.1" 404 2526
+Not Found: /assets/images/clip-01.jpg
+[06/Sep/2024 14:51:53] "GET /assets/images/clip-01.jpg HTTP/1.1" 404 2505
+Not Found: /vendor/jquery/jquery.min.js
+Not Found: /assets/images/clip-02.jpg
+Not Found: /vendor/bootstrap/js/bootstrap.min.js
+Not Found: /assets/js/isotope.min.js
+[06/Sep/2024 14:51:53] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2538
+[06/Sep/2024 14:51:53] "GET /vendor/jquery/jquery.min.js HTTP/1.1" 404 2511
+[06/Sep/2024 14:51:53] "GET /assets/images/clip-02.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:51:53] "GET /assets/js/isotope.min.js HTTP/1.1" 404 2502
+Not Found: /assets/js/owl-carousel.js
+[06/Sep/2024 14:51:53] "GET /assets/js/owl-carousel.js HTTP/1.1" 404 2505
+Not Found: /assets/js/popup.js
+[06/Sep/2024 14:51:53] "GET /assets/js/popup.js HTTP/1.1" 404 2484
+Not Found: /assets/js/tabs.js
+Not Found: /assets/js/custom.js
+[06/Sep/2024 14:51:53] "GET /assets/js/tabs.js HTTP/1.1" 404 2481
+Not Found: /assets/images/game-01.jpg
+Not Found: /assets/images/clip-03.jpg
+[06/Sep/2024 14:51:53] "GET /assets/js/custom.js HTTP/1.1" 404 2487
+[06/Sep/2024 14:51:53] "GET /assets/images/game-01.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/clip-04.jpg
+[06/Sep/2024 14:51:53] "GET /assets/images/clip-03.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-02.jpg
+[06/Sep/2024 14:51:53] "GET /assets/images/clip-04.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:51:53] "GET /assets/images/game-02.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-03.jpg
+[06/Sep/2024 14:51:53] "GET /assets/images/game-03.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:51:54] "GET / HTTP/1.1" 200 10954
+Not Found: /vendor/bootstrap/css/bootstrap.min.css
+Not Found: /assets/css/owl.css
+[06/Sep/2024 14:51:54] "GET /vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2544
+Not Found: /assets/css/fontawesome.css
+[06/Sep/2024 14:51:54] "GET /assets/css/owl.css HTTP/1.1" 404 2484
+[06/Sep/2024 14:51:54] "GET /static/assets/css/templatemo-cyborg-gaming.css HTTP/1.1" 404 1931
+Not Found: /assets/css/animate.css
+[06/Sep/2024 14:51:54] "GET /assets/css/animate.css HTTP/1.1" 404 2496
+[06/Sep/2024 14:51:54] "GET /assets/css/fontawesome.css HTTP/1.1" 404 2508
+[06/Sep/2024 14:51:54] "GET /static/assets/images/logo.png%20 HTTP/1.1" 404 1885
+Not Found: /assets/images/profile-header.jpg
+[06/Sep/2024 14:51:54] "GET /assets/images/profile-header.jpg HTTP/1.1" 404 2526
+Not Found: /assets/images/profile.jpg
+[06/Sep/2024 14:51:54] "GET /assets/images/profile.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/clip-01.jpg
+Not Found: /assets/js/isotope.min.js
+Not Found: /assets/images/clip-02.jpg
+Not Found: /vendor/jquery/jquery.min.js
+[06/Sep/2024 14:51:54] "GET /assets/images/clip-02.jpg HTTP/1.1" 404 2505
+Not Found: /assets/js/owl-carousel.js
+[06/Sep/2024 14:51:54] "GET /assets/images/clip-01.jpg HTTP/1.1" 404 2505
+Not Found: /vendor/bootstrap/js/bootstrap.min.js
+[06/Sep/2024 14:51:54] "GET /assets/js/isotope.min.js HTTP/1.1" 404 2502
+[06/Sep/2024 14:51:54] "GET /vendor/jquery/jquery.min.js HTTP/1.1" 404 2511
+[06/Sep/2024 14:51:54] "GET /assets/js/owl-carousel.js HTTP/1.1" 404 2505
+Not Found: /assets/js/tabs.js
+Not Found: /assets/js/popup.js
+[06/Sep/2024 14:51:54] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2538
+Not Found: /assets/images/clip-04.jpg
+[06/Sep/2024 14:51:54] "GET /assets/js/tabs.js HTTP/1.1" 404 2481
+[06/Sep/2024 14:51:54] "GET /assets/js/popup.js HTTP/1.1" 404 2484
+[06/Sep/2024 14:51:54] "GET /assets/images/clip-04.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/clip-03.jpg
+[06/Sep/2024 14:51:54] "GET /assets/images/clip-03.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-01.jpg
+[06/Sep/2024 14:51:54] "GET /assets/images/game-01.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-02.jpg
+[06/Sep/2024 14:51:54] "GET /assets/images/game-02.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-03.jpg
+[06/Sep/2024 14:51:54] "GET /assets/images/game-03.jpg HTTP/1.1" 404 2505
+Not Found: /assets/js/custom.js
+[06/Sep/2024 14:51:54] "GET /assets/js/custom.js HTTP/1.1" 404 2487
+[06/Sep/2024 14:52:51] "GET / HTTP/1.1" 200 10951
+Not Found: /vendor/bootstrap/css/bootstrap.min.css
+Not Found: /assets/css/fontawesome.css
+[06/Sep/2024 14:52:51] "GET /static/assets/images/logo.png HTTP/1.1" 404 1880
+Not Found: /assets/css/owl.css
+[06/Sep/2024 14:52:51] "GET /vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2544
+[06/Sep/2024 14:52:51] "GET /static/assets/css/templatemo-cyborg-gaming.css HTTP/1.1" 404 1931
+[06/Sep/2024 14:52:51] "GET /assets/css/fontawesome.css HTTP/1.1" 404 2508
+[06/Sep/2024 14:52:51] "GET /assets/css/owl.css HTTP/1.1" 404 2484
+Not Found: /assets/css/animate.css
+[06/Sep/2024 14:52:51] "GET /assets/css/animate.css HTTP/1.1" 404 2496
+Not Found: /assets/images/profile-header.jpg
+[06/Sep/2024 14:52:51] "GET /assets/images/profile-header.jpg HTTP/1.1" 404 2526
+Not Found: /assets/images/profile.jpg
+[06/Sep/2024 14:52:51] "GET /assets/images/profile.jpg HTTP/1.1" 404 2505
+Not Found: /vendor/bootstrap/js/bootstrap.min.js
+[06/Sep/2024 14:52:51] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2538
+Not Found: /assets/images/clip-01.jpg
+[06/Sep/2024 14:52:51] "GET /assets/images/clip-01.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/clip-02.jpg
+[06/Sep/2024 14:52:51] "GET /assets/images/clip-02.jpg HTTP/1.1" 404 2505
+Not Found: /vendor/jquery/jquery.min.js
+[06/Sep/2024 14:52:51] "GET /vendor/jquery/jquery.min.js HTTP/1.1" 404 2511
+Not Found: /assets/js/isotope.min.js
+[06/Sep/2024 14:52:51] "GET /assets/js/isotope.min.js HTTP/1.1" 404 2502
+Not Found: /assets/images/clip-03.jpg
+Not Found: /assets/images/game-01.jpg
+[06/Sep/2024 14:52:51] "GET /assets/images/clip-03.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:52:51] "GET /assets/images/game-01.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/clip-04.jpg
+Not Found: /assets/js/owl-carousel.js
+Not Found: /assets/js/tabs.js
+[06/Sep/2024 14:52:51] "GET /assets/js/tabs.js HTTP/1.1" 404 2481
+Not Found: /assets/js/popup.js
+[06/Sep/2024 14:52:51] "GET /assets/images/clip-04.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-02.jpg
+Not Found: /assets/js/custom.js
+[06/Sep/2024 14:52:51] "GET /assets/js/owl-carousel.js HTTP/1.1" 404 2505
+[06/Sep/2024 14:52:51] "GET /assets/js/popup.js HTTP/1.1" 404 2484
+[06/Sep/2024 14:52:51] "GET /assets/images/game-02.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:52:51] "GET /assets/js/custom.js HTTP/1.1" 404 2487
+Not Found: /assets/images/game-03.jpg
+[06/Sep/2024 14:52:51] "GET /assets/images/game-03.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:52:52] "GET / HTTP/1.1" 200 10951
+Not Found: /vendor/bootstrap/css/bootstrap.min.css
+Not Found: /assets/css/fontawesome.css
+Not Found: /assets/css/animate.css
+[06/Sep/2024 14:52:52] "GET /static/assets/css/templatemo-cyborg-gaming.css HTTP/1.1" 404 1931
+[06/Sep/2024 14:52:52] "GET /vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2544
+Not Found: /assets/css/owl.css
+[06/Sep/2024 14:52:52] "GET /assets/css/owl.css HTTP/1.1" 404 2484
+[06/Sep/2024 14:52:52] "GET /assets/css/fontawesome.css HTTP/1.1" 404 2508
+[06/Sep/2024 14:52:52] "GET /static/assets/images/logo.png HTTP/1.1" 404 1880
+[06/Sep/2024 14:52:52] "GET /assets/css/animate.css HTTP/1.1" 404 2496
+Not Found: /assets/images/clip-02.jpg
+Not Found: /assets/images/profile-header.jpg
+Not Found: /assets/images/clip-01.jpg
+[06/Sep/2024 14:52:52] "GET /assets/images/clip-01.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:52:52] "GET /assets/images/clip-02.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/profile.jpg
+[06/Sep/2024 14:52:52] "GET /assets/images/profile.jpg HTTP/1.1" 404 2505
+[06/Sep/2024 14:52:52] "GET /assets/images/profile-header.jpg HTTP/1.1" 404 2526
+Not Found: /vendor/jquery/jquery.min.js
+Not Found: /vendor/bootstrap/js/bootstrap.min.js
+[06/Sep/2024 14:52:52] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2538
+[06/Sep/2024 14:52:52] "GET /vendor/jquery/jquery.min.js HTTP/1.1" 404 2511
+Not Found: /assets/js/isotope.min.js
+Not Found: /assets/js/custom.js
+[06/Sep/2024 14:52:52] "GET /assets/js/isotope.min.js HTTP/1.1" 404 2502
+[06/Sep/2024 14:52:52] "GET /assets/js/custom.js HTTP/1.1" 404 2487
+Not Found: /assets/images/clip-03.jpg
+[06/Sep/2024 14:52:52] "GET /assets/images/clip-03.jpg HTTP/1.1" 404 2505
+Not Found: /assets/js/tabs.js
+[06/Sep/2024 14:52:52] "GET /assets/js/tabs.js HTTP/1.1" 404 2481
+Not Found: /assets/js/popup.js
+[06/Sep/2024 14:52:52] "GET /assets/js/popup.js HTTP/1.1" 404 2484
+Not Found: /assets/js/owl-carousel.js
+[06/Sep/2024 14:52:52] "GET /assets/js/owl-carousel.js HTTP/1.1" 404 2505
+Not Found: /assets/images/clip-04.jpg
+[06/Sep/2024 14:52:52] "GET /assets/images/clip-04.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-02.jpg
+[06/Sep/2024 14:52:52] "GET /assets/images/game-02.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-01.jpg
+[06/Sep/2024 14:52:52] "GET /assets/images/game-01.jpg HTTP/1.1" 404 2505
+Not Found: /assets/images/game-03.jpg
+[06/Sep/2024 14:52:52] "GET /assets/images/game-03.jpg HTTP/1.1" 404 2505
+^C                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker]
+└─$ python manage.py migrate               
+System check identified some issues:
+
+WARNINGS:
+?: (staticfiles.W004) The directory '/home/cipher/Obsidian/c1ph3rwolf/thehacker/mystaticfiles' in the STATICFILES_DIRS setting does not exist.                                                  
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial... OK
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker]
+└─$ python manage.py startapp thehome 
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker]
+└─$ python manage.py startapp thetools
+                                                                                                
+┌──(c1ph3rwolf)─(cipher㉿watchdog)-[~/Obsidian/c1ph3rwolf/thehacker]
+└─$ 

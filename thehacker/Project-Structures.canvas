@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"48c260919e758405","type":"group","x":400,"y":280,"width":2120,"height":520,"label":"obsidian"},
+		{"id":"ca9ee61f50a18a71","type":"group","x":-2200,"y":280,"width":1160,"height":220,"label":"python -m venv c1ph3rwolf"},
+		{"id":"95401ca9c208f534","type":"group","x":-920,"y":280,"width":800,"height":220,"label":"django-admin startproject thehacker"},
+		{"id":"9398d2ab999b0992","type":"text","text":"### bin","x":-2120,"y":360,"width":250,"height":60},
+		{"id":"16bcf152e8a2efe6","type":"text","text":"### include","x":-1760,"y":360,"width":206,"height":60},
+		{"id":"cf8482ebda88612f","type":"text","text":"### lib","x":-1420,"y":360,"width":250,"height":60},
+		{"id":"a5e3ccdd7350fdb9","type":"text","text":"## thehacker","x":-805,"y":360,"width":250,"height":60},
+		{"id":"8fe871e2a218986f","type":"text","text":"## app-profile","x":-460,"y":360,"width":250,"height":60},
+		{"id":"3aa15b4bd81fea91","type":"text","text":"## Web (Project-Files)`","x":-1195,"y":-100,"width":390,"height":60},
+		{"id":"29172ed6c30a3bc2","type":"text","text":"# c1ph3rwolf","x":-80,"y":-480,"width":250,"height":60},
+		{"id":"f4f3e6efb03d6c14","type":"text","text":"## Grossary","x":640,"y":360,"width":250,"height":60},
+		{"id":"f6e8440234c23c61","type":"text","text":"## Journals","x":1000,"y":360,"width":250,"height":60},
+		{"id":"293be9cbe2273781","type":"text","text":"## Workflow","x":1360,"y":360,"width":250,"height":60},
+		{"id":"c0e41eee213a08b6","x":515,"y":640,"width":250,"height":60,"type":"text","text":"## 0-INDEX"},
+		{"id":"1fddfb110f1a9232","type":"text","text":"## 1-PROJECTS","x":871,"y":640,"width":250,"height":60},
+		{"id":"905d1c82356e009c","type":"text","text":"## 2-AREA","x":1231,"y":640,"width":320,"height":60},
+		{"id":"bf659f3bb90b3641","type":"text","text":"## 3-RESOURCES","x":1631,"y":640,"width":320,"height":60},
+		{"id":"5fbff51b3f93c312","type":"text","text":"## 4-ARCHIVES","x":2040,"y":640,"width":320,"height":60}
+	],
+	"edges":[
+		{"id":"ef182f8267efddce","fromNode":"3aa15b4bd81fea91","fromSide":"bottom","toNode":"ca9ee61f50a18a71","toSide":"top"},
+		{"id":"9b07eac007bc01ae","fromNode":"3aa15b4bd81fea91","fromSide":"bottom","toNode":"95401ca9c208f534","toSide":"top"},
+		{"id":"040a8f182d060e80","fromNode":"29172ed6c30a3bc2","fromSide":"bottom","toNode":"3aa15b4bd81fea91","toSide":"right"},
+		{"id":"fd4a6de04285e8b0","fromNode":"29172ed6c30a3bc2","fromSide":"bottom","toNode":"48c260919e758405","toSide":"top"},
+		{"id":"20a00d832673d023","fromNode":"293be9cbe2273781","fromSide":"bottom","toNode":"c0e41eee213a08b6","toSide":"top"},
+		{"id":"182baa985939174d","fromNode":"293be9cbe2273781","fromSide":"bottom","toNode":"1fddfb110f1a9232","toSide":"top"},
+		{"id":"a9508fc3d638cd56","fromNode":"293be9cbe2273781","fromSide":"bottom","toNode":"905d1c82356e009c","toSide":"top"},
+		{"id":"f89c586065aeb2d4","fromNode":"293be9cbe2273781","fromSide":"bottom","toNode":"bf659f3bb90b3641","toSide":"top"},
+		{"id":"7228d3a4105e7fdf","fromNode":"293be9cbe2273781","fromSide":"bottom","toNode":"5fbff51b3f93c312","toSide":"top"}
+	]
+}
