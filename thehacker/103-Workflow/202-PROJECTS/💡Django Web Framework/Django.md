@@ -6,7 +6,6 @@
 > Django is a Python framework that makes it easier to create web sites using Python^[Django takes care of the difficult stuff so that you can concentrate on building your web applications.] ^[Django emphasizes reusability of components, also referred to as DRY (Don't Repeat Yourself), and comes with ready-to-use features like login system, database connection and CRUD operations (Create Read Update Delete).]
 > > [How does Django Works](https://www.w3schools.com/django/django_intro.php)
 
-
 # Table of Contents
 
 0. [[#What is Django]]
@@ -20,7 +19,15 @@
 4. [[#Check Versions]]
 	1. [[#Python]]
 	2. [[#Django]]
-5. 
+5. [[#Create App]]
+	1. [[#What is an App?]]
+	2. [[#Create An App]]
+	3. 
+6. [[#FAQ]]
+	1. [[#A Sample Django Project]]
+	2. [[#how to structure the project to ensure consistent navigation across all pages]]
+	3. [[#how to send context data to `anyfile.html`]]
+	4. [[#difference between {% include %} & {% block %}]]
 
 # The Mind-Map
 ![[Getting Started with Django.canvas|Working of Django]]
@@ -159,7 +166,7 @@ python --version
 But first, let's just create a simple Django app that displays "Hello World!".
 
 
-#### Create App
+#### Create An App
 
 - [ ] I will name my app `members`.
 - [ ] Start by navigating to the selected location where you want to store the app, in my case the `my_tennis_club` folder, and run the command below.
@@ -187,3 +194,476 @@ my_tennis_club
 These are all files and folders with a specific meaning. 
 
 First, take a look at the file called `views.py`.
+
+
+
+
+
+
+# FAQ
+### A Sample Django Project
+
+> The Mind-Map 
+
+![[thesample-project.canvas|thesample-project]]
+
+
+Sure, here's a sample Django project that incorporates the concepts from the previous responses, including template inheritance and consistent navigation across pages:
+
+##### Project Structure
+```python
+myproject/ 
+│ 
+├── myapp/ 
+│   ├── views.py 
+│   └── urls.py 
+|
+├── static/ 
+│ └── css/ 
+│     └── styles.css 
+|
+├── templates/ 
+│   ├── base.html 
+│   ├── home.html 
+│   ├── about.html 
+│   ├── services.html 
+│   └── contact.html 
+│  
+├── myproject/ 
+│   ├── settings.py 
+│   ├── urls.py 
+│   └── wsgi.py 
+|
+└── manage.py
+```
+
+> `base.html`
+
+```python
+<!-- base.html --> 
+<!DOCTYPE html> 
+<html lang="en"> 
+	<head> 
+	<meta charset="UTF-8"> 
+		<title>{% block title %}My Django Project{% endblock %}</title> 
+	</head> 
+	<body> 
+		<header> 
+		<nav> 
+			<ul> 
+				<li><a href="/">Home</a></li> 
+				<li><a href="/about/">About</a></li> 
+				<li><a href="/services/">Services</a></li> 
+				<li><a href="/contact/">Contact</a></li> 
+			</ul> 
+		</nav> 
+		</header> 
+		<main> 
+			{% block content %}{% endblock %} </main> 
+		<footer> <p>&copy; 2023 My Django Project</p> </footer> 
+	</body> 
+</html>
+```
+
+> `home.html`  `../templates/home.html`)
+
+```python
+<!-- home.html --> 
+{% extends 'base.html' %} 
+{% block title %}Home{% endblock %} 
+
+{% block content %} 
+	<h1>Welcome to My Django Project</h1> 
+	<p>This is the home page content.</p> 
+{% endblock %}
+```
+
+> `about.html`  (`../templates/about.html`)
+
+```python
+<!-- about.html --> 
+{% extends 'base.html' %} 
+{% block title %}About{% endblock %} 
+{% block content %} 
+	<h1>About Our Project</h1> 
+	<p>This is the about page content.</p> 
+{% endblock %}
+```
+
+>  `services.html` (`../templates/services.html`)
+
+```python
+<!-- services.html --> 
+{% extends 'base.html' %} 
+{% block title %}Services{% endblock %} 
+{% block content %} 
+	<h1>Our Services</h1> 
+	<ul> 
+		<li>Service 1</li> 
+		<li>Service 2</li> 
+		<li>Service 3</li> 
+	</ul> 
+{% endblock %}
+```
+
+> `contact.html` (`../templates/contact.html`)
+
+```python
+<!-- contact.html --> 
+{% extends 'base.html' %} 
+{% block title %}Contact{% endblock %} 
+
+{% block content %} 
+	<h1>Contact Us</h1> 
+	<form> 
+		<label for="name">Name:</label> 
+		<input type="text" id="name" name="name"><br> 
+			<label for="email">Email:</label> 
+		<input type="email" id="email" name="email"><br> 
+			<label for="message">Message:</label> 
+		<textarea id="message" name="message"></textarea><br> 
+			<input type="submit" value="Submit"> </form> 
+{% endblock %}
+```
+
+> `style.css` (`../mystatic/css/style.css`)
+
+```css
+/* static/css/styles.css */ 
+body { 
+	font-family: Arial, sans-serif; 
+	margin: 0; 
+	padding: 0; 
+	} 
+header { 
+	background-color: #333; 
+	color: #fff; 
+	padding: 20px; 
+	} 
+nav ul { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	display: flex; 
+	} 
+nav li { 
+	margin-right: 20px; 
+	} 
+nav a { 
+	color: #fff; 
+	text-decoration: none; 
+	} 
+main { 
+	padding: 20px; 
+	} 
+footer { 
+	background-color: #333; 
+	color: #fff; 
+	padding: 10px; 
+	text-align: center; 
+	}
+```
+
+> `views.py` ( `../myapp/views.py`)
+
+```python
+from django.shortcuts import render 
+
+def home_view(request): 
+	return render(request, 'home.html') 
+	
+def about_view(request): 
+	return render(request, 'about.html') 
+	
+def services_view(request): 
+	return render(request, 'services.html') 
+	
+def contact_view(request): 
+	return render(request, 'contact.html')
+```
+
+> `urls.py`  `../myapp/urls.py`)
+
+```python
+from django.urls import path 
+from . import views 
+
+urlpatterns = [ 
+	   path('', views.home_view, name='home'), 
+	   path('about/', views.about_view, name='about'), 
+	   path('services/', views.services_view, name='services'), 
+	   path('contact/', views.contact_view, name='contact'), 
+   ]
+```
+
+> `settings.py`
+
+```python
+TEMPLATES = [ 
+	 { 'BACKEND': 'django.template.backends.django.DjangoTemplates',
+	   'DIRS': [BASE_DIR / 'templates'], 
+	   'APP_DIRS': True, 
+	   'OPTIONS': { 
+		   'context_processors': [ 
+			   'django.template.context_processors.debug',
+			   'django.template.context_processors.request',
+			   'django.contrib.auth.context_processors.auth',
+			   'django.contrib.messages.context_processors.messages',
+			   'django.template.context_processors.static', 
+			   ], 
+		   }, 
+	   }, 
+   ] 
+   
+STATIC_URL = '/static/' 
+STATICFILES_DIRS = [ 
+			BASE_DIR / 'static', 
+		]
+```
+
+
+In this sample project:
+
+1. The `base.html` template defines the overall structure and includes the navigation menu.
+2. Child templates (`home.html`, `about.html`, `services.html`, `contact.html`) extend the base template and override the `title` and `content` blocks.
+3. A new `static` directory is created to store the global CSS file.
+4. The `styles.css` file is added to the `static/css` directory, containing global styles for the project.
+5. In the `base.html` template, a `{% static %}` tag is used to link the `styles.css` file in the `<head>` section.
+6. The `views.py` file defines the view functions that render the corresponding child templates.
+7. The `urls.py` file maps the URLs to the view functions.
+8. The `settings.py` file is configured to `recognize` the `templates` directory.
+9. The `settings.py` file is updated to configure the static file settings:
+    
+    - The `django.template.context_processors.static` context processor is added to the `TEMPLATES` setting.
+    - The `STATIC_URL` and `STATICFILES_DIRS` settings are added to specify the URL and directory for static files.
+
+
+By applying global CSS in this manner, the styles defined in `styles.css` will be applied consistently across all pages that extend the `base.html` template. This ensures a unified look and feel for your Django project.
+
+By following this structure, you can easily maintain consistent navigation across all pages of your Django project while allowing for `customization` of individual pages through template inheritance.
+
+Remember to run `python manage.py collectstatic` to collect and copy the static files to the specified location.
+### how to structure the project to ensure consistent navigation across all pages
+
+> To ensure consistent navigation across all pages of your Django project, you can follow these structured steps:
+
+#### 1. Create a Base Template
+
+> [!abstract] What to Do ?
+> Start by creating a base template that includes the navigation bar and any other common elements (like the header and footer) that you want to appear on every page. 
+> 
+> 	This template will serve as the foundation for all other templates.
+
+> Example of `base.html`
+
+```
+<!-- base.html --> 
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <title>{% block title %}My Website{% endblock %}</title> </head> <body> <header> <nav> <ul> <li><a href="/">Home</a></li> <li><a href="/about/">About</a></li> <li><a href="/services/">Services</a></li> <li><a href="/contact/">Contact</a></li> </ul> </nav> </header> <main> {% block content %}{% endblock %} </main> <footer> <p>&copy; 2023 My Website</p> </footer> </body> </html>
+```
+
+
+
+
+##### 2. Create Child Templates
+
+For each page of your website, create child templates that extend the base template. These templates will inherit the navigation structure defined in `base.html`.
+
+> Example of `home.html`
+
+```
+<!-- home.html --> {% extends 'base.html' %} {% block title %}Home{% endblock %} {% block content %} <h1>Welcome to My Website</h1> <p>This is the home page content.</p> {% endblock %}
+```
+
+> Example of `about.html`
+
+```
+<!-- about.html --> {% extends 'base.html' %} {% block title %}About Us{% endblock %} {% block content %} <h1>About Us</h1> <p>This is the about page content.</p> {% endblock %}
+```
+
+##### 3. Organize Your Templates
+
+Place your templates in a structured directory within your Django project. A common practice is to have a `templates` directory at the root of your project or within each app.
+
+```
+myproject/ │ ├── templates/ │ ├── base.html │ ├── home.html │ └── about.html
+```
+
+
+##### 4. Configure Template Settings
+
+Ensure that your Django settings are configured to recognize your templates directory. In your `settings.py`, specify the `DIRS` option in the `TEMPLATES` setting.
+
+```
+TEMPLATES = [ { 'BACKEND': 'django.template.backends.django.DjangoTemplates', 'DIRS': [BASE_DIR / 'templates'], 'APP_DIRS': True, 'OPTIONS': { 'context_processors': [ 'django.template.context_processors.debug', 'django.template.context_processors.request', 'django.contrib.auth.context_processors.auth', 'django.contrib.messages.context_processors.messages', ], }, }, ]
+```
+
+##### 5. Use Consistent Navigation Design
+
+- **Consistency**: Ensure that the navigation links and their order remain the same across all pages. This helps users predict where they can find information, enhancing their experience[](https://webflow.com/blog/website-navigation)[](https://www.netguru.com/blog/ux-tips-to-improve-website-navigation)[](https://blog.hubspot.com/website/main-website-navigation-ht).
+- **Visibility**: Place the navigation menu in a location where users expect to find it, typically at the top of the page[](https://webflow.com/blog/website-navigation)[](https://www.netguru.com/blog/ux-tips-to-improve-website-navigation).
+- **Clarity**: Use clear and descriptive labels for navigation links so users understand what to expect when they click on them[](https://www.netguru.com/blog/ux-tips-to-improve-website-navigation)
+
+##### 6. Render the Templates in Views
+
+In your Django views, render the child templates as needed.
+
+> Example Views
+
+```
+from django.shortcuts import render def home_view(request): return render(request, 'home.html') def about_view(request): return render(request, 'about.html')
+```
+
+By following these steps, you can create a structured Django project that maintains consistent navigation across all pages, enhancing user experience and site usability.
+
+
+### difference between {% include %} & {% block %}
+
+The difference between `{% include %}` and `{% block %}` in Django templates lies in their purposes and how they are used in template inheritance and composition.
+
+#### `{% block %}`
+
+- **Purpose**: The `{% block %}` tag is used for defining sections in a template that can be overridden by child templates. It is a fundamental part of Django's template inheritance system.
+- **Usage**: When you create a base template, you can define blocks that child templates can fill with their own content. This allows for a consistent layout across multiple pages while enabling specific content to vary.
+- **Example**: `base.html`
+```html
+<!-- base.html --> 
+<!DOCTYPE html> 
+<html lang="en"> 
+	<head> 
+		<title>{% block title %}Default Title{% endblock %}</title> 
+	</head> 
+	<body> 
+		<header> 
+			<h1>My Website</h1> 
+		</header> 
+		<main> 
+			{% block content %}{% endblock %} 
+		</main> 
+		<footer> 
+			<p>&copy; 2023 My Website</p> 
+		</footer> 
+	</body> 
+</html>
+```
+
+- **In Child Template**:
+```html
+<!-- home.html --> 
+
+{% extends 'base.html' %}  
+
+{% block title %}Home Page{% endblock %} 
+
+{% block content %} 
+	<h2>Welcome to the Home Page</h2> 
+	<p>This is the main content of the home page.</p> 
+{% endblock %}
+```
+
+#### `% include %}`
+
+- **Purpose**: The `{% include %}` tag is used to include another template within the current template. It allows for `reusability` of template fragments without needing to define a block.
+- **Usage**: You can use `{% include %}` to insert a template into another template, which can be useful for components like navigation bars, footers, or other repeated sections. The included template can also receive context variables.
+- **Example**:
+```html
+<!-- navbar.html --> 
+<nav> 
+	<ul> <li><a href="/">Home</a></li> 
+		<li><a href="/about/">About</a></li> 
+	</ul> </nav>
+```
+
+- **In Another Template**:
+```html
+<!-- base.html --> 
+<!DOCTYPE html> 
+<html lang="en"> 
+	<head> 
+		<title>{% block title %}Default Title{% endblock %}</title> 
+	</head> 
+	<body> 
+		{% include 'navbar.html' %} 
+		<main> {% block content %}{% endblock %} </main> 
+	<footer> <p>&copy; 2023 My Website</p> </footer> 
+	</body> 
+</html>
+```
+
+#### Summary
+
+- **Block Inheritance**: The `{% block %}` tag is used for defining sections of a template that can be overridden by child templates. It is essential for creating a base template structure that can be extended.
+- **Template Inclusion**: The `{% include %}` tag is used to insert another template within the current template. It is useful for including reusable components without the need for inheritance.
+
+In essence, use `{% block %}` for defining areas of a template that can be `customized` in child templates, and use `{% include %}` for embedding reusable templates directly into other templates.
+
+---
+### how to send context data to `anyfile.html`
+
+To send context data to a template such as `services.html` that includes a heading like `<h1> Our {{ heading }} </h1>`, you can follow these steps:
+
+##### Step 1: Define Your View
+
+In your Django view, you will need to create a context dictionary that includes the data you want to pass to the `services.html` template. For example, you can define a heading and pass it to the template.
+
+> Example View in `views.py`
+
+```python
+from django.shortcuts import render 
+
+def services_view(request): 
+# Define the heading you want to pass to the template 
+
+context = { 
+	   'heading': 'Services Offered' 
+	} 
+	return render(request, 'services.html', context)
+```
+
+##### Step 2: Create the Template
+
+In your `services.html` template, you can use the `{{ heading }}` variable to display the heading passed from the view.
+
+> Example Template `services.html`
+
+```html
+<!-- services.html --> 
+{% extends 'base.html' %} 
+
+{% block title %}Our Services{% endblock %} 
+{% block content %} 
+	<h1>Our {{ heading }}</h1> 
+	<p>Here are the services we offer:</p> 
+	<ul> 
+		<li>Service 1</li> 
+		<li>Service 2</li> 
+		<li>Service 3</li> 
+	</ul> 
+{% endblock %}
+```
+
+##### Step 3: Configure URLs
+
+Make sure to configure the URL routing to point to the `services_view` function in your `urls.py`.
+
+> Example URL Configuration in `urls.py`
+
+```python
+from django.urls import path 
+from .views import services_view 
+
+urlpatterns = [ 
+	path('services/', services_view, name='services'), 
+	]
+```
+
+##### Step 4: Access the Page
+
+Now, when you navigate to `/services/` in your browser, the `services.html` template will be rendered, and you will see the heading "Our Services Offered" displayed as specified in the view.
+
+##### Summary
+
+- **View**: The view function retrieves or defines the context data (in this case, the heading) and passes it to the template.
+- **Template**: The template uses the context variable `{{ heading }}` to dynamically display the heading.
+- **URL Configuration**: Ensure that the URL is correctly mapped to the view function.
+
+This approach allows you to send any context data to your templates in Django, making your web application dynamic and data-driven.

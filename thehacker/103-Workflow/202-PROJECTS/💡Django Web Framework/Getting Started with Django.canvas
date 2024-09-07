@@ -17,7 +17,7 @@
 		{"id":"0c0a2e1f1446db37","type":"text","text":"# Run the Django Project\n\nNavigate to the `/my_tennis_club` folder and execute this command in the command prompt:\n\n```javascript\npython manage.py runserver\n```","x":1801,"y":-1074,"width":566,"height":220,"color":"4"},
 		{"id":"bb671763cdc07af1","type":"text","text":"# What's Next ?\n\n```javascript\nWe have a .Django project!\n\nThe next step is to 'make an app' in your project.\n\nYou cannot have a web page created with Django without an app.\n```","x":1751,"y":-1480,"width":667,"height":220},
 		{"id":"241493882bd6727e","type":"text","text":"# Create An App\n\n```python\npython manage.py startapp members\n```","x":1801,"y":-1820,"width":566,"height":140},
-		{"id":"52fce41edc07e903","x":1502,"y":-3020,"width":1164,"height":800,"type":"file","file":"Workflow/1-PROJECTS/💡Django Web Framework/Django App.canvas"}
+		{"id":"52fce41edc07e903","type":"file","file":"103-Workflow/202-PROJECTS/💡Django Web Framework/Django App.canvas","x":1502,"y":-3020,"width":1164,"height":800}
 	],
 	"edges":[
 		{"id":"8674bfb86e0af42e","fromNode":"35505b4204e4fb60","fromSide":"right","toNode":"5d64253decdc33fc","toSide":"left"},
