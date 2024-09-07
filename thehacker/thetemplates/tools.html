@@ -1,0 +1,24 @@
+{% extends 'home.html' %}
+
+
+{% block title %}Services{% endblock %}
+
+
+
+{% block content %}
+    <h1>Our {{ heading }}</h1>
+
+
+        <!-- ***** Featured Games Start ***** -->
+        {% include 'carousel.html' %}
+        <!-- ***** Featured Games End ***** -->
+
+       <!-- <h1>Our Streams</h1> -->
+          <!-- ***** Live Stream Start ***** -->
+          {% include 'reusable/streams.html' %}
+          <!-- ***** Live Stream End ***** -->
+
+          {% include 'foundation/footer.html' with sitename='c1ph3rwolf' %}
+
+
+{% endblock %}
