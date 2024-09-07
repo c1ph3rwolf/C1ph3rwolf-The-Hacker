@@ -4,22 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "bb7fe3be98bdf792",
+        "id": "8d90741cfc5ff3c9",
         "type": "tabs",
         "children": [
           {
-            "id": "6f4a73ca667fe700",
+            "id": "105e855299311c09",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "103-Workflow/202-PROJECTS/💡Django Web Framework/django-projects/thehacker-project.canvas",
-                "viewState": {
-                  "x": 1325.6140202802503,
-                  "y": 284.0469334582208,
-                  "zoom": -1.6
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -88,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "103-Workflow/202-PROJECTS/💡Django Web Framework/django-projects/thehacker-project.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "103-Workflow/202-PROJECTS/💡Django Web Framework/django-projects/thehacker-project.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "103-Workflow/202-PROJECTS/💡Django Web Framework/django-projects/thehacker-project.canvas"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,27 +138,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f4a73ca667fe700",
+  "active": "105e855299311c09",
   "lastOpenFiles": [
-    "103-Workflow/202-PROJECTS/💡Django Web Framework/django-projects",
-    "thehome/templates/navigation.html",
-    "thestaticfiles/html/navigation.html",
-    "thestaticfiles/html",
-    "theprofile/__pycache__/urls.cpython-311.pyc.140716386157456",
-    "thehome/__pycache__/urls.cpython-311.pyc.140070205899232",
-    "theprofile/__pycache__/urls.cpython-311.pyc.139802991935824",
-    "thehome/__pycache__/urls.cpython-311.pyc.140251359986000",
-    "thetools/migrations/__pycache__/__init__.cpython-311.pyc",
-    "thetools/migrations/__pycache__/__init__.cpython-311.pyc.139963524891152",
-    "thetools/migrations/__pycache__",
+    "103-Workflow/202-PROJECTS/💡Django Web Framework/thesample-project.canvas",
     "103-Workflow/202-PROJECTS/💡Django Web Framework/Django App.canvas",
-    "103-Workflow/202-PROJECTS/💡Django Web Framework/django-projects/thehacker-project.canvas",
+    "103-Workflow/202-PROJECTS/💡Django Web Framework/Django.md",
+    "103-Workflow/202-PROJECTS/💡Django Web Framework/thehacker-project.canvas",
+    "103-Workflow/202-PROJECTS/💡Django Web Framework/Django (assets)/django-project-launched-successfully-on-first-run.png",
+    "103-Workflow/202-PROJECTS/💡Django Web Framework/Getting Started with Django.canvas",
+    "thetemplates/profile.html",
+    "thetemplates/profilde.html",
+    "thetemplates/profilee.html",
+    "thetemplates/reusable/videoclips.html",
+    "thetemplates/reusable/about.html",
+    "theapp/__pycache__/urls.cpython-311.pyc.139870781372240",
+    "theapp/__pycache__/urls.cpython-311.pyc.139849883842384",
+    "theapp/__pycache__/views.cpython-311.pyc.140470072211424",
+    "thetemplates/details.html",
+    "thetemplates/browse.html",
     "Project-Structures.canvas",
     "103-Workflow/204-RESOURCES/clipboard/django-logo.png",
     "103-Workflow/204-RESOURCES/clipboard/brave_screenshot.png",
-    "103-Workflow/202-PROJECTS/💡Django Web Framework/Django (assets)/django-project-launched-successfully-on-first-run.png",
-    "103-Workflow/202-PROJECTS/💡Django Web Framework/Getting Started with Django.canvas",
-    "103-Workflow/202-PROJECTS/💡Django Web Framework/Django.md",
     "103-Workflow/202-PROJECTS/👩‍💻 3 Months CyberSecurity RoadMap/Cybersecurity Roadmap.md",
     "103-Workflow/202-PROJECTS/👩‍💻 3 Months CyberSecurity RoadMap/Certification-Traps.md",
     "103-Workflow/1-PROJECTS/💡Django Web Framework/Django (assets)/django-project-launched-successfully-on-first-run.png",
@@ -196,7 +185,6 @@
     "Start Here.md",
     "download.md",
     "Daily Routine.canvas",
-    "Workflow/1-PROJECTS/💡Django Web Framework/Django App.canvas",
     "Workflow/1-PROJECTS/💡Django Web Framework/Django.md",
     "how-to-decompress-tar-gz-files.md",
     "Hack The Box.md",
